@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+{% block incs %}
+<script src="{{ STATIC_URL }}jquery.js" type="text/javascript"></script>
+<link href="{{ STATIC_URL }}stylesheet.css" rel="stylesheet" type="text/css">
+<script src="{{ STATIC_URL }}dtestapp.js" type="text/javascript"></script>
+{% endblock incs %}
+
+{% block content %}
+<h1 id="roomName" name="roomName">{{ room.name }}</h1>
+
+<pre id="roomDescript" name="roomDescript">
+{{ room.description }}
+</pre>
+
+<p>
+Use the textbox below to input the following commands:<br/ >
+</p>
+
+<ul>
+{% for cmd in cmdHelp %}
+    <li>{{ cmd.0 }} - {{ cmd.1 }}</li>
+{% endfor %}
+</ul>
+
+<p>   
+<form id="userControls" action="" method="POST">
+    <input id="userCmd" name="userCmd" type="text" size="25" value="">
+    <input id="sendCmd" name="sendCmd" type="SUBMIT">
+    {% csrf_token %}
+</form>
+</p>
+
+<pre id="chat" name="chat"> </pre>
+   
+<p>
+<a href="/restart/">Restart</a><br />
+<a href="/accounts/logout/">Logout</a>
+</p>
+{% endblock content%}

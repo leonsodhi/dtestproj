@@ -1,0 +1,167 @@
+- model: dtestapp.Item
+  pk: null
+  fields:
+    name: blaster
+    description: ""
+
+- model: dtestapp.Item
+  pk: null
+  fields:
+    name: paper
+    description: "It's got three numbers written on it, 4, 7 and 2"
+
+- model: dtestapp.Item
+  pk: null
+  fields:
+    name: gothon
+    description: ""
+
+- model: dtestapp.Item
+  pk: null
+  fields:
+    name: laserweaponarmoryexit
+    description: ""
+
+- model: dtestapp.Item
+  pk: null
+  fields:
+    name: deadgothon
+    description: ""
+
+- model: dtestapp.Item
+  pk: null
+  fields:
+    name: centralcorridorexit
+    description: ""
+
+- model: dtestapp.Item
+  pk: null
+  fields:
+    name: neutronbombcontainer     
+    description: It looks like there's some sort of keypad on it
+
+- model: dtestapp.Item
+  pk: null
+  fields:
+    name: neutronbomb
+    description: ""
+
+- model: dtestapp.Item
+  pk: null
+  fields:
+    name: 0
+    description: ""
+
+- model: dtestapp.Item
+  pk: null
+  fields:
+    name: 1
+    description: ""
+
+- model: dtestapp.Item
+  pk: null
+  fields:
+    name: 2
+    description: ""
+
+- model: dtestapp.Item
+  pk: null
+  fields:
+    name: 3
+    description: ""
+
+- model: dtestapp.Item
+  pk: null
+  fields:
+    name: 4
+    description: ""
+
+- model: dtestapp.Item
+  pk: null
+  fields:
+    name: 5
+    description: ""
+    
+- model: dtestapp.Item
+  pk: null
+  fields:
+    name: 6
+    description: ""
+
+- model: dtestapp.Item
+  pk: null
+  fields:
+    name: 7
+    description: ""
+
+- model: dtestapp.Item
+  pk: null
+  fields:
+    name: 8
+    description: ""
+
+- model: dtestapp.Item
+  pk: null
+  fields:
+    name: 9
+    description: ""
+
+- model: dtestapp.Item
+  pk: null
+  fields:
+    name: enter
+    description: ""
+
+- model: dtestapp.Item
+  pk: null
+  fields:
+    name: thebridgeexit
+    description: ""
+
+- model: dtestapp.Item
+  pk: null
+  fields:
+    name: bridgefloor
+    description: ""
+
+- model: dtestapp.Item
+  pk: null
+  fields:
+    name: gothongroup
+    description: ""
+
+- model: dtestapp.Item
+  pk: null
+  fields:
+    name: escapepodsexit
+    description: ""
+
+- model: dtestapp.Item
+  pk: null
+  fields:
+    name: pod1
+    description: ""
+
+- model: dtestapp.Item
+  pk: null
+  fields:
+    name: pod2
+    description: ""
+
+- model: dtestapp.Item
+  pk: null
+  fields:
+    name: pod3
+    description: ""
+
+- model: dtestapp.Item
+  pk: null
+  fields:
+    name: pod42
+    description: ""
+
+- model: dtestapp.Item
+  pk: null
+  fields:
+    name: pod5
+    description: ""
